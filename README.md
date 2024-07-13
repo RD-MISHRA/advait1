@@ -31,8 +31,11 @@ Sign Up
 curl -X POST http://localhost:5000/auth/signup -H "Content-Type: application/json" -d '{"email":"test2323@example.com", "password":"password"}'
 
 
-
 Sign In
+
+
+ ```sh
+
 curl -X POST http://localhost:5000/auth/signin -H "Content-Type: application/json" -d '{"email":"test@example.com", "password":"password"}'.
 
 
