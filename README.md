@@ -33,7 +33,7 @@ curl -X POST http://localhost:5000/auth/signup -H "Content-Type: application/jso
 
 
 Sign In
-curl -X POST http://localhost:5000/auth/signin -H "Content-Type: application/json" -d '{"email":"test@example.com", "password":"password"}'
+curl -X POST http://localhost:5000/auth/signin -H "Content-Type: application/json" -d '{"email":"test@example.com", "password":"password"}'.
 
 
 
@@ -50,4 +50,5 @@ curl -X POST http://localhost:5000/auth/revoke -H "Authorization: Bearer <your_a
 
 Protected Endpoint (Requires a valid access token)
 Replace <your_access_token> with a valid JWT access token:
-curl -X GET http://localhost:5000/auth/protected -H "Authorization: Bearer <your_access_
+curl -X GET http://localhost:5000/auth/protected -H "Authorization: Bearer <your_access_token>"
+
