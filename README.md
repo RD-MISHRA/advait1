@@ -20,8 +20,7 @@ To run this project with one command, ensure the following are installed on your
    This command builds and starts the Docker containers for your application.
 
 After this, your server will be ready.
-<span style="color:red">
-**Warning:** after this  mongo  will give you lot of warining and error pls ignore it .</span>
+<span style="color:red">**Warning:** after this  mongo  will give you lot of warining and error pls ignore it .</span>
 
 Testing the API
 
